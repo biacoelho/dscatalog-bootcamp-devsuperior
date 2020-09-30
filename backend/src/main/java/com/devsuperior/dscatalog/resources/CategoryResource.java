@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dscatalog.entities.Category;
 
+
+/**
+ * This class implements the RestController. The resources.
+ * @author https://github.com/biacoelho
+ */
+
 @RestController
 @RequestMapping(value = "/categories")
 public class CategoryResource {

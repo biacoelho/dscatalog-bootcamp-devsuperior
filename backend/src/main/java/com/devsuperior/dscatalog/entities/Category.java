@@ -2,6 +2,10 @@ package com.devsuperior.dscatalog.entities;
 
 import java.io.Serializable;
 
+/** 
+ * This class contains the product categories
+ * @author https://github.com/biacoelho 
+ */
 public class Category implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
@@ -57,6 +61,4 @@ public class Category implements Serializable{
 		return true;
 	}
 	
-	
-
 }
